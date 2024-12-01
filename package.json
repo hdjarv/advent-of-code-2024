@@ -1,0 +1,22 @@
+{
+  "name": "aoc-2024",
+  "version": "1.0.0",
+  "description": "My Advent of Code 2024 contributions",
+  "author": "Henrik Djärv <henrik@djarv.org>",
+  "license": "MIT",
+  "bin": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hdjarv/advent-of-code-2024.git"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "prettier": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
